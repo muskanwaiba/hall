@@ -1,0 +1,30 @@
+.calendar-controls {
+  display:flex;
+  justify-content:center;
+  gap:12px;
+}
+
+.calendar-controls button {
+  background:#e74c3c;
+  color:#fff;
+  border:none;
+  width:28px;
+  height:28px;
+  border-radius:50%;
+}
+
+#calendarTable {
+  width:100%;
+  text-align:center;
+}
+
+#calendarTable td {
+  width:30px;
+  height:30px;
+  border-radius:50%;
+  cursor:pointer;
+}
+
+#calendarTable td.selected { background:#e74c3c;color:#fff; }
+#calendarTable td.booked   { background:#e74c3c;color:#fff;opacity:.5; }
+#calendarTable td.disabled { color:#ccc; }
